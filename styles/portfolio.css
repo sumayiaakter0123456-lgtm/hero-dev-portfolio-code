@@ -63,6 +63,7 @@
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    padding-bottom: 180px;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: 23px 38px, bottom right;
@@ -91,8 +92,8 @@ nav .menu a {
 }
 
 #banner {
-    background-color: 1px solid red;
-    margin: 66px 25px 0 243px;
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -125,8 +126,9 @@ nav .menu a {
 #banner .banner-image img {
     max-width: 585px;
     vertical-align: middle;
-
+    transform: translateY(180px);
 }
+
 
 #about,
 #skills,
